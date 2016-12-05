@@ -4,15 +4,15 @@
 # and I will talk you through the code and getting it to run in the game
 # For now, heres a clue as to how it should be laid out...you have to do some of the work at least!
 
-def checkio(cheater):
-    if cheater % 5 == 0 and cheater % 3 == 0:
+def checkio(number):
+    if number % 5 == 0 and number % 3 == 0:
         print('This is basically the layout for the code')
-    elif cheater % 3 == 0:
+    elif number % 3 == 0:
         print('Something else')
-    elif cheater % 5 == 0:
+    elif number % 5 == 0:
         print('Something else again')
     else:
-        print(cheater)
+        print(number)
         
 # you could check this code with:
 # checater(15)
