@@ -8,9 +8,9 @@
 # to write the code
 
 def checkio(data):
-    newlst = []
+    newlist = []
     for i in data:
         if data.count(i) > 1:
-            newlst.append(i)
+            newlist.append(i)
 
-return newlst
+return newlist
